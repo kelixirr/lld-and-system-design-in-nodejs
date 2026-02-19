@@ -1,3 +1,6 @@
+
+// Singleton Pattern 
+
 interface ICache<T> {
   set(key: string, value: T): void;
   get(key: string): T | undefined;

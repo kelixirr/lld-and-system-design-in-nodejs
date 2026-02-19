@@ -1,3 +1,4 @@
+// factory pattern
 interface INotification {
   send(useId: string, message: string): void;
 }
