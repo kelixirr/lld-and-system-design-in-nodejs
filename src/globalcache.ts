@@ -38,15 +38,13 @@ class InMemoryCache<T> implements ICache<T> {
   }
 }
 
-// We get our instance. (Notice we use getInstance(), not 'new')
+// We get our instance.
+
 const myCache1 = InMemoryCache.getInstance<string>();
 myCache1.set("user_123", "Amritesh");
 
-// Somewhere else in the app, another file/developer tries to get a cache instance...
 const myCache2 = InMemoryCache.getInstance<string>();
 
-// Let's see if they share the exact same memory space:
 console.log("Value from cache 2:", myCache2.get("user_123")); // Should print "Amritesh"
 
-// Interview Check: Are these two variables pointing to the exact same object in memory?
 console.log("Are both caches the exact same instance?", myCache1 === myCache2);
