@@ -18,10 +18,9 @@ To run any of the individual project files, use the `tsx` command followed by th
 
 ### 1. Global In-Memory LRU Cache
 
-- **Filename:** `01-singleton-lru-cache.ts`
-- **Concepts:** Singleton Pattern (Creational), Hash Maps, Doubly Linked Lists.
-- **Description:** An in-memory cache system that guarantees a single global instance using the Singleton pattern. It implements a Least Recently Used (LRU) eviction policy by combining a Hash Map for $O(1)$ lookups and a Doubly Linked List for $O(1)$ insertions and deletions.
-
+- **Filename:** `01-singleton-cache.ts`
+- **Concepts:** Singleton Pattern
+- **Description:** An in-memory cache system that guarantees a single global instance using the Singleton pattern.
 ### 2. Notification System
 
 - **Filename:** `02-factory-notification.ts`
