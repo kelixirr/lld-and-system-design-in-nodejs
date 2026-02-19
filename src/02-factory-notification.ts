@@ -17,7 +17,7 @@ class SMSNotiification implements INotification {
 
 class PushNotification implements INotification {
   public send(userId: string, message: string): void {
-    console.log(`[PUSH] Sending to device for user ${userId}: ${message}`);
+    console.log(`[PUSSH] Sending to device for user ${userId}: ${message}`);
   }
 }
 

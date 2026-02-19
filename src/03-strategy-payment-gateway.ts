@@ -69,7 +69,7 @@ const checkout = new CheckoutProcessor(creditCardMethod);
 
 checkout.processOrder(150.0);
 
-const paypalMethod = new PayPalPayment("user@example.com");
+const paypalMethod = new PayPalPayment("user@exaple.com");
 checkout.setPaymentStrategy(paypalMethod);
 
 checkout.processOrder(45.5);
