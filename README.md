@@ -43,3 +43,13 @@ To run any of the individual project files, use the `tsx` command followed by th
 * **Filename:** `05-observer-pub-sub.ts`
 * **Concepts:** Observer Pattern (Behavioral), Event-Driven Architecture, Node.js Event Emitters.
 * **Description:** Implements a Publish/Subscribe architecture from scratch. It demonstrates how to decouple application components so that a central "Publisher" can notify multiple "Subscribers" of state changes asynchronously, strictly adhering to the Open/Closed Principle.
+
+### 6. API Rate Limiter
+* **Filename:** `06-queue-rate-limiter.ts`
+* **Concepts:** Queue Data Structure, Sliding Window Algorithm, System Protection.
+* **Description:** A security mechanism to protect APIs from DDoS attacks and spam. It uses a Sliding Window Log algorithm, combining a Hash Map with internal Queues to track user request timestamps and strictly limit the number of operations a single user can perform within a specific timeframe.
+
+### 7. Background Jobs (Producer-Consumer Pattern)
+* **Filename:** `07-producer-consumer-queue.ts`
+* **Concepts:** Producer-Consumer Pattern (Concurrency), Message Queues, Asynchronous Processing, Node.js Event Loop.
+* **Description:** Demonstrates how to handle heavy computational tasks without blocking the Node.js main thread. Implements an in-memory message queue where "Producers" push background jobs and asynchronous "Consumers" (Workers) process them concurrently at their own pace.
