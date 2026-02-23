@@ -104,3 +104,8 @@ To run any of the individual project files, use the `tsx` command followed by th
 * **Filename:** `16-sorting-strategies.ts`
 * **Concepts:** Strategy Pattern, Divide and Conquer, Time Complexity ($O(N^2)$ vs $O(N \log N)$).
 * **Description:** Implements the three most important interview sorting algorithms (Bubble, Merge, and Quick Sort) using the Strategy Pattern. Demonstrates how to write decoupled, extensible algorithmic logic while contrasting slow nested loops with high-performance recursive sorting.
+
+### 17. Trees and Depth-First Search (DFS)
+* **Filename:** `17-trees-dfs.ts`
+* **Concepts:** Binary Trees, Nodes, Recursion, Depth-First Search, Tree Traversals (Pre/In/Post-order).
+* **Description:** Introduces the Binary Tree data structure where each node connects to up to two children. Demonstrates Depth-First Search (DFS), a recursive algorithm that plunges as deep down a single branch as possible before backtracking. Includes the classic algorithm to find the Maximum Depth of a tree.
