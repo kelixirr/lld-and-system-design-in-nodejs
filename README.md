@@ -105,7 +105,17 @@ To run any of the individual project files, use the `tsx` command followed by th
 * **Concepts:** Strategy Pattern, Divide and Conquer, Time Complexity ($O(N^2)$ vs $O(N \log N)$).
 * **Description:** Implements the three most important interview sorting algorithms (Bubble, Merge, and Quick Sort) using the Strategy Pattern. Demonstrates how to write decoupled, extensible algorithmic logic while contrasting slow nested loops with high-performance recursive sorting.
 
-### 17. Trees and Depth-First Search (DFS)
-* **Filename:** `17-trees-dfs.ts`
-* **Concepts:** Binary Trees, Nodes, Recursion, Depth-First Search, Tree Traversals (Pre/In/Post-order).
-* **Description:** Introduces the Binary Tree data structure where each node connects to up to two children. Demonstrates Depth-First Search (DFS), a recursive algorithm that plunges as deep down a single branch as possible before backtracking. Includes the classic algorithm to find the Maximum Depth of a tree.
+### 17. The Generic Tree (N-ary Tree)
+* **Filename:** `17-generic-tree.ts`
+* **Concepts:** N-ary Nodes, Dynamic Children Arrays, Breadth-First Search (BFS) for locating nodes.
+* **Description:** Implements a foundational, unrestricted tree structure where each node can have infinite children. Includes methods to search the tree and insert new nodes under specific parents, demonstrating how pointers physically connect data in memory.
+
+### 18. The Binary Search Tree (BST)
+* **Filename:** `18-binary-search-tree.ts`
+* **Concepts:** Binary Nodes, Left/Right Pointers, $O(\log N)$ Insertion and Search.
+* **Description:** Transforms a standard tree into a highly searchable data structure by enforcing a strict mathematical rule: all left children must be smaller than the parent, and all right children must be larger. Demonstrates how to dynamically route and insert nodes to maintain this balance.
+
+### 19. Binary Tree Traversals (DFS & BFS)
+* **Filename:** `19-tree-traversals.ts`
+* **Concepts:** Pre-order, In-order, Post-order, Level-order, Recursion vs. Queues.
+* **Description:** Implements the four essential tree traversal algorithms. Demonstrates how changing the placement of a single line of code in DFS drastically alters the output, and how BFS utilizes a Queue to sweep across a tree level-by-level.
