@@ -62,7 +62,8 @@ class Graph {
   public dfsRecursive(startVertex: string): string[] {
     const result: string[] = [];
     const visited: Set<string> = new Set();
-
+     
+    // helper
     const dfsHelper = (vertex: string) => {
       if (!vertex || visited.has(vertex)) return;
 
@@ -74,7 +75,8 @@ class Graph {
         dfsHelper(neighbor);
       }
     };
-
+    
+    // where we start
     dfsHelper(startVertex);
     return result;
   }
