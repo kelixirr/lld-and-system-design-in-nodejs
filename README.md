@@ -119,3 +119,13 @@ To run any of the individual project files, use the `tsx` command followed by th
 * **Filename:** `19-tree-traversals.ts`
 * **Concepts:** Pre-order, In-order, Post-order, Level-order, Recursion vs. Queues.
 * **Description:** Implements the four essential tree traversal algorithms. Demonstrates how changing the placement of a single line of code in DFS drastically alters the output, and how BFS utilizes a Queue to sweep across a tree level-by-level.
+
+### 20. Linked Lists & Fast/Slow Pointers
+* **Filename:** `20-linked-lists.ts`
+* **Concepts:** Singly Linked Lists, Pointers, In-Place Reversal, Floyd's Cycle Detection (Tortoise and Hare).
+* **Description:** Introduces the Linked List, a linear data structure where elements are not stored in contiguous memory. Demonstrates how to build, traverse, and completely reverse a list in $O(N)$ time with $O(1)$ space, along with detecting infinite loops.
+
+### 21. Graphs & Adjacency Lists
+* **Filename:** `21-graphs.ts`
+* **Concepts:** Vertices (Nodes), Edges (Connections), Adjacency Lists, Undirected Networks.
+* **Description:** Introduces the Graph data structure, used to model complex networks like social media friendships or GPS maps. Demonstrates how to build an Adjacency List using a Hash Map to efficiently store and remove bi-directional connections in $O(1)$ time.
